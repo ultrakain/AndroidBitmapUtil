@@ -29,7 +29,7 @@ public class AndroidBmpUtil {
 	 * @param filePath
 	 * @return file saved result
 	 */
-	public boolean saveByteBuffer(Bitmap orgBitmap, String filePath){
+	public boolean save(Bitmap orgBitmap, String filePath){
 		
 		if(orgBitmap == null){
 			return false;
